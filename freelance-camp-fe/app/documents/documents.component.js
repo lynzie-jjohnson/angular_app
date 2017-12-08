@@ -9,6 +9,29 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var DocumentsComponent = /** @class */ (function () {
     function DocumentsComponent() {
+        this.documents = [
+            {
+                title: "My first doc",
+                decsription: "blah blah blah",
+                file_url: "http://google/com",
+                updated_at: "12/8/17",
+                image_url: "http://google/com",
+            },
+            {
+                title: "My second doc",
+                decsription: "blah blah blah",
+                file_url: "http://google/com",
+                updated_at: "12/8/17",
+                image_url: "http://google/com",
+            },
+            {
+                title: "My third doc",
+                decsription: "blah blah blah",
+                file_url: "http://google/com",
+                updated_at: "12/8/17",
+                image_url: "http://google/com",
+            }
+        ];
     }
     DocumentsComponent = __decorate([
         core_1.Component({
