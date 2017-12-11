@@ -1,24 +1,26 @@
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <div class='container'>
           <div class="navbar-nav">
-            <a class="nav-item nav-link" routerLink="/home">Home</a>
-            <a class="nav-item nav-link" routerLink="/documents">Docs</a>
+            <a class="nav-item nav-link" routerLink="/home"routerLinkActive="active">Home</a>
+            <a class="nav-item nav-link" routerLink="/documents"routerLinkActive="active">Docs</a>
             <li class="nav-item dropdown">
               <div ngbDropdown class="d-inline-block dropdown-links">
                 <button class="btn btn-outline-info" id="proposalDropdown" ngbDropdownToggle>
                   Proposals
                 </button>
                 <div class="dropdown-menu" aria-labelledby="proposalDropdown">
-                  <a class="dropdown-item" routerLink="/proposal">Proposals</a>
-                  <a class="dropdown-item" routerLink="/proposal/new">New Proposal</a>
+                  <a class="dropdown-item" routerLink="/proposal" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Proposals</a>
+                  <a class="dropdown-item" routerLink="/proposal/new"routerLinkActive="active">New Proposal</a>
                 </div>
               </div>
             </li>
           </div>
         </div>
       </nav>
-      <router-outlet></router-outlet>
 
+      <div class="app-body">
+        <router-outlet></router-outlet>
+      </div>
 
 
 
