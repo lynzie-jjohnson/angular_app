@@ -6,6 +6,10 @@
     background-color: #1a1b22;
 }
 
+.bg-faded {
+    background-color: #2e1c1f;
+}
+
 .nav-styles a {
    color: white;
 }
@@ -15,7 +19,7 @@
 }
 
 .nav-link.active {
-    color: #02d9ff !important;
+    color: #567b3c !important;
 }
 
 .dropdown-links a {
@@ -23,5 +27,5 @@
 }
 
 .dropdown-links a:hover {
-    color: #02d9ff;
+    color: #567b3c;
 }
