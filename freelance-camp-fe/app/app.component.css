@@ -1,5 +1,5 @@
 .app-body {
-    margin-top: 80px;
+    margin: 80px;
 }
 
 .nav-styles {
@@ -7,7 +7,7 @@
 }
 
 .bg-faded {
-    background-color: #2e1c1f;
+    background-color: #7b7b7bcf;
 }
 
 .nav-styles a {
@@ -15,11 +15,15 @@
 }
 
 .nav-styles a:hover {
-    color: #c9c9c9;
+    color: #6dffdd;
+}
+
+a {
+    color: white;
 }
 
 .nav-link.active {
-    color: #567b3c !important;
+    color: #7bffe7 !important;
 }
 
 .dropdown-links a {
@@ -27,5 +31,5 @@
 }
 
 .dropdown-links a:hover {
-    color: #567b3c;
+    color: #b06a75;
 }

@@ -1,3 +1,8 @@
 .proposal-link:hover{
     text-decoration: none;
 }
+
+a.list-group-item-info.active{
+    background-color: rgb(184, 184, 184);
+    border: black;
+}
