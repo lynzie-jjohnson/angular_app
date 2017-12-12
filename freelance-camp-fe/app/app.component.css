@@ -15,7 +15,7 @@
 }
 
 .nav-styles a:hover {
-    color: #6dffdd;
+    color: #7ebdb1;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 .nav-link.active {
-    color: #7bffe7 !important;
+    color: #CFD11A !important;
 }
 
 .dropdown-links a {
@@ -31,5 +31,10 @@ a {
 }
 
 .dropdown-links a:hover {
-    color: #b06a75;
+    color: #595959;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #CFD11A;
+}
+
